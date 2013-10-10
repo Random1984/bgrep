@@ -1,0 +1,16 @@
+Binary grep.
+
+It's a very simple utility for searching for the binary strings in all files, recursively.
+
+Usage bgrep.py hex_string
+Where hex_string is like "001122aabb"
+
+That will result something like:
+
+[file.exe] pattern found
+
+If you wish to suppress file access errors, run it like:
+
+bgrep.py hex_string 2>nul
+
+-- dennis@yurichev.com
